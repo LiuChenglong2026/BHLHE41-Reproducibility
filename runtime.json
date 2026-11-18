@@ -1,0 +1,12 @@
+{
+  "reference_python": "3.12.12",
+  "python_series_for_execution": ">=3.12,<3.13",
+  "random_seed": 20261117,
+  "bootstrap_replicates": 2000,
+  "outer_validation": "25 leave-one-donor-pair-out folds",
+  "inner_lasso_validation": "six-fold StratifiedGroupKFold within 24 outer-training pairs",
+  "cbioportal_access_date": "2026-11-17",
+  "direct_dependencies": "requirements.txt",
+  "source_checksums": "data/source_manifest.json",
+  "audit_report": "results/audit/reproducibility_audit.json"
+}

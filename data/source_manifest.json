@@ -1,0 +1,123 @@
+{
+  "manifest_version": 1,
+  "description": "Reference input snapshots for the reported analysis; SHA-256 verification is mandatory.",
+  "sources": [
+    {
+      "path": "data/raw/GSE65127_series_matrix.txt.gz",
+      "kind": "series_matrix",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE65nnn/GSE65127/matrix/GSE65127_series_matrix.txt.gz",
+      "role": "GSE65127 development cohort series matrix",
+      "access_date": "2026-11-17",
+      "bytes": 6275835,
+      "sha256": "a8dbf01f76df386304b2d584342adf6e906fefeeda772622017f8a2854a1068b"
+    },
+    {
+      "path": "data/raw/GSE75819_series_matrix.txt.gz",
+      "kind": "series_matrix",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75819/matrix/GSE75819_series_matrix.txt.gz",
+      "role": "GSE75819 development cohort series matrix",
+      "access_date": "2026-11-17",
+      "bytes": 7829018,
+      "sha256": "8786311d27a8cdfbd6616a5a617c3888b0eb4c624264d1d593f79585976c4a4f"
+    },
+    {
+      "path": "data/raw/GSE53146_series_matrix.txt.gz",
+      "kind": "series_matrix",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE53nnn/GSE53146/matrix/GSE53146_series_matrix.txt.gz",
+      "role": "GSE53146 external-validation series matrix",
+      "access_date": "2026-11-17",
+      "bytes": 999618,
+      "sha256": "cded44637574d7facd46f2b8b384d2915ebce4683b514dd7fc3874a6fbe3d06a"
+    },
+    {
+      "path": "data/annotations/GPL570.annot.gz",
+      "kind": "gzip_annotation",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "role": "GPL570 probe annotation",
+      "access_date": "2026-11-17",
+      "bytes": 8471521,
+      "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394"
+    },
+    {
+      "path": "data/annotations/GPL6884.txt",
+      "kind": "platform_text",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6884&targ=self&form=text&view=full",
+      "role": "GPL6884 full platform table",
+      "access_date": "2026-11-17",
+      "bytes": 26635276,
+      "sha256": "7e0ec69b144790403687a8641c40872ce82996e8f2e8ea1ba587c3e653a7fbd1"
+    },
+    {
+      "path": "data/annotations/GPL14951.txt",
+      "kind": "platform_text",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL14951&targ=self&form=text&view=full",
+      "role": "GPL14951 complete platform table",
+      "access_date": "2026-11-17",
+      "bytes": 62052242,
+      "sha256": "372432a38c376c0d3dd8965c640f8758fcc9e715bd4999bf1636cc25464af5a5"
+    },
+    {
+      "path": "data/source/Bian_2019_PMC6601371_fullText.xml",
+      "kind": "xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6601371/fullTextXML",
+      "role": "Bian et al. full-text XML for Tables III–IV",
+      "access_date": "2026-11-17",
+      "bytes": 110743,
+      "sha256": "fa85ceb158ede8054c4daac09dcf10e3a41a135c6a3053e05f5de120ce392861"
+    },
+    {
+      "path": "data/source/Bian_2019_Tables_III_IV_40_unique_genes.csv",
+      "kind": "file",
+      "url": "Derived by scripts/05_graying_concordance.py from PMC6601371 Tables III–IV",
+      "role": "Forty unique published gray-hair genes",
+      "access_date": "2026-11-17",
+      "bytes": 2268,
+      "sha256": "8596182d3a2e98b07171dce88cd9e4ceef890a3d2af04be76b99b99e4a1ae0c9"
+    },
+    {
+      "path": "data/source/TCGA_SKCM_cBioPortal_expression_RSEM.csv",
+      "kind": "file",
+      "url": "https://www.cbioportal.org/api; study=skcm_tcga; profile=skcm_tcga_rna_seq_v2_mrna",
+      "role": "TCGA-SKCM expression snapshot",
+      "access_date": "2026-11-17",
+      "bytes": 57322,
+      "sha256": "d45b39b060c711bcce7657176c88171390bbfa437462b8c1b1ef189f38f6f4e6"
+    },
+    {
+      "path": "data/source/TCGA_SKCM_cBioPortal_patient_clinical.csv",
+      "kind": "file",
+      "url": "https://www.cbioportal.org/api/studies/skcm_tcga/clinical-data?clinicalDataType=PATIENT",
+      "role": "TCGA-SKCM patient clinical snapshot",
+      "access_date": "2026-11-17",
+      "bytes": 1519094,
+      "sha256": "6a1b71de4bf424e2a88d5ee348ead60d4efa51c8e0d819698d4a3e39de8a4abd"
+    },
+    {
+      "path": "data/source/CCLE_2019_cutaneous_melanoma_expression_RPKM.csv",
+      "kind": "file",
+      "url": "https://www.cbioportal.org/api; study=ccle_broad_2019; profile=ccle_broad_2019_rna_seq_mrna",
+      "role": "CCLE cutaneous-melanoma expression snapshot",
+      "access_date": "2026-11-17",
+      "bytes": 5651,
+      "sha256": "7bd853651cde95ba7bfc59555a5c16ba9fb19a097a4bef2bd7a1e4a00fbd525c"
+    },
+    {
+      "path": "data/source/CCLE_2019_cutaneous_melanoma_sample_annotations.csv",
+      "kind": "file",
+      "url": "https://www.cbioportal.org/api/studies/ccle_broad_2019/clinical-data?clinicalDataType=SAMPLE",
+      "role": "CCLE sample-selection annotations",
+      "access_date": "2026-11-17",
+      "bytes": 4429,
+      "sha256": "4a8162129c392ac2a3a195b2c9235d5a51cd6a06ab3a664d66217d91003f51a1"
+    },
+    {
+      "path": "data/source/cBioPortal_source_metadata.json",
+      "kind": "file",
+      "url": "Recorded from the cBioPortal requests in scripts/06_cbioportal_melanoma.py",
+      "role": "cBioPortal study, profile, selection and access-date metadata",
+      "access_date": "2026-11-17",
+      "bytes": 533,
+      "sha256": "4f7ff165a94319b7050b9fb50a8b561cff08c371040e261c2316e4f407bea9d2"
+    }
+  ]
+}

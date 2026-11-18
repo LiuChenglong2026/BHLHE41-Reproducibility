@@ -1,0 +1,17 @@
+{
+  "access_date": "2026-11-17",
+  "api": "https://www.cbioportal.org/api",
+  "TCGA": {
+    "study": "skcm_tcga",
+    "molecular_profile": "skcm_tcga_rna_seq_v2_mrna",
+    "sample_list": "skcm_tcga_rna_seq_v2_mrna",
+    "expression_samples": 472
+  },
+  "CCLE": {
+    "study": "ccle_broad_2019",
+    "molecular_profile": "ccle_broad_2019_rna_seq_mrna",
+    "sample_list": "ccle_broad_2019_rna_seq_mrna",
+    "selection": "CANCER_TYPE_DETAILED == Cutaneous Melanoma and available RNA-seq expression",
+    "expression_samples": 58
+  }
+}

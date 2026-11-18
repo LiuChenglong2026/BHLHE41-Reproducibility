@@ -1,0 +1,10 @@
+{
+  "study": "ccle_broad_2019",
+  "profile": "ccle_broad_2019_rna_seq_mrna",
+  "n_cutaneous_melanoma_RNAseq": 58,
+  "MITF_median": 34.1616,
+  "BHLHE41_mean_MITF_high_RPKM": 19.28188275862069,
+  "BHLHE41_mean_MITF_low_RPKM": 3.7132620689655167,
+  "mean_fold_ratio": 5.192707220902525,
+  "mann_whitney_two_sided_asymptotic_p": 5.718002012498376e-08
+}

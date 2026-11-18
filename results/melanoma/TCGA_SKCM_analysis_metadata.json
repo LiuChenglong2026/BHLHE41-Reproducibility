@@ -1,0 +1,11 @@
+{
+  "study": "skcm_tcga",
+  "profile": "skcm_tcga_rna_seq_v2_mrna",
+  "expression_samples": 472,
+  "unique_patients": 469,
+  "survival_patients": 459,
+  "events": 220,
+  "expression_transform": "log2(max(RSEM,0)+1)",
+  "survival_sample_rule": "one sample per patient, first after sorting sample ID; OS_MONTHS >= 0 and known OS_STATUS",
+  "analysis": "univariable Cox per SD and secondary median-split log-rank; exploratory and unadjusted"
+}

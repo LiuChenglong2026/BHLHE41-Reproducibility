@@ -1,0 +1,1264 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-17T21:30:11.590953+00:00",
+  "finished_utc": "2026-11-17T21:30:18.546744+00:00",
+  "python": "3.12.12",
+  "seed": 20261117,
+  "bootstrap_replicates": 2000,
+  "checks_passed": 121,
+  "checks": [
+    {
+      "name": "source_snapshots_sha256",
+      "status": "passed",
+      "details": {
+        "verified": 13
+      }
+    },
+    {
+      "name": "gpl14951_complete_and_uncorrupted",
+      "status": "passed",
+      "details": {
+        "bytes": 62052242,
+        "sha256": "372432a38c376c0d3dd8965c640f8758fcc9e715bd4999bf1636cc25464af5a5"
+      }
+    },
+    {
+      "name": "development_matrix_dimensions",
+      "status": "passed",
+      "details": {
+        "shape": [
+          13511,
+          50
+        ]
+      }
+    },
+    {
+      "name": "strict_oof_prediction_completeness",
+      "status": "passed",
+      "details": {
+        "pairs": 25,
+        "predictions": 50
+      }
+    },
+    {
+      "name": "fold_artifact_dimensions",
+      "status": "passed",
+      "details": {
+        "assignments": 1250,
+        "scaler_rows": 675550,
+        "top500_rows": 12500
+      }
+    },
+    {
+      "name": "fold_01_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9021",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "TYRP1",
+          "SAP30",
+          "LGI3",
+          "SCARB1"
+        ]
+      }
+    },
+    {
+      "name": "fold_02_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9022",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "RPL31",
+          "OCA2",
+          "KIT",
+          "LGI3"
+        ]
+      }
+    },
+    {
+      "name": "fold_03_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9023",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "SCARB1",
+          "MC1R",
+          "MLANA",
+          "BOLA3",
+          "MRPL47"
+        ]
+      }
+    },
+    {
+      "name": "fold_04_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9024",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "LGI3",
+          "UCN2",
+          "LYAR",
+          "SCARB1"
+        ]
+      }
+    },
+    {
+      "name": "fold_05_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9025",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "WFS1",
+          "UBE2T",
+          "TYR",
+          "MLANA"
+        ]
+      }
+    },
+    {
+      "name": "fold_06_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9026",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "FAM24B",
+          "MLANA",
+          "MC1R",
+          "WFS1",
+          "TYRP1"
+        ]
+      }
+    },
+    {
+      "name": "fold_07_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9027",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "TYR",
+          "WFS1",
+          "LGI3",
+          "TSPAN10"
+        ]
+      }
+    },
+    {
+      "name": "fold_08_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9028",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "TYRP1",
+          "SAP30",
+          "MLANA",
+          "MC1R",
+          "SNRPG"
+        ]
+      }
+    },
+    {
+      "name": "fold_09_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9029",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "RPS15A",
+          "WFS1",
+          "MC1R",
+          "FAM24B",
+          "MLANA"
+        ]
+      }
+    },
+    {
+      "name": "fold_10_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE65127_9030",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "TYR",
+          "TYRP1",
+          "LGI3",
+          "TLN1"
+        ]
+      }
+    },
+    {
+      "name": "fold_11_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D01",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "SAP30",
+          "MLANA",
+          "OCA2",
+          "MC1R",
+          "FAM24B"
+        ]
+      }
+    },
+    {
+      "name": "fold_12_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D02",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "WFS1",
+          "AKR1B10",
+          "MLANA",
+          "FAM24B"
+        ]
+      }
+    },
+    {
+      "name": "fold_13_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D03",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "MC1R",
+          "DCT",
+          "FAM24B",
+          "MLANA",
+          "TYR",
+          "TSPAN10"
+        ]
+      }
+    },
+    {
+      "name": "fold_14_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D04",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "FAM24B",
+          "WFS1",
+          "TYR",
+          "METTL4"
+        ]
+      }
+    },
+    {
+      "name": "fold_15_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D05",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "MC1R",
+          "DCT",
+          "SAP30",
+          "LYAR",
+          "OTUD6B",
+          "SCARB1"
+        ]
+      }
+    },
+    {
+      "name": "fold_16_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D06",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MLANA",
+          "SCARB1",
+          "MC1R",
+          "SAP30",
+          "AKR1B10"
+        ]
+      }
+    },
+    {
+      "name": "fold_17_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D07",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "TYRP1",
+          "FAM24B",
+          "LGI3",
+          "SCARB1"
+        ]
+      }
+    },
+    {
+      "name": "fold_18_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D08",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "MLANA",
+          "TYRP1",
+          "TYR",
+          "SAP30"
+        ]
+      }
+    },
+    {
+      "name": "fold_19_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D09",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MLANA",
+          "WFS1",
+          "SAP30",
+          "ATP9A",
+          "MC1R"
+        ]
+      }
+    },
+    {
+      "name": "fold_20_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D10",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "MLANA",
+          "TYRP1",
+          "SAP30",
+          "TYR"
+        ]
+      }
+    },
+    {
+      "name": "fold_21_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D11",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "WFS1",
+          "MC1R",
+          "AKR1B10",
+          "SAP30",
+          "TYR"
+        ]
+      }
+    },
+    {
+      "name": "fold_22_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D12",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "RPL31",
+          "MLANA",
+          "TYRP1",
+          "SAP30"
+        ]
+      }
+    },
+    {
+      "name": "fold_23_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D13",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MLANA",
+          "MC1R",
+          "WFS1",
+          "KIT",
+          "TYR"
+        ]
+      }
+    },
+    {
+      "name": "fold_24_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D14",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "TYRP1",
+          "DCT",
+          "AKR1B10",
+          "DKK3",
+          "MC1R",
+          "CRY2"
+        ]
+      }
+    },
+    {
+      "name": "fold_25_independent_refit",
+      "status": "passed",
+      "details": {
+        "held_out_pair": "GSE75819_D15",
+        "train_samples": 48,
+        "test_samples": 2,
+        "top500": 500,
+        "six_genes": [
+          "DCT",
+          "MC1R",
+          "MLANA",
+          "TYR",
+          "RBM38",
+          "SCARB1"
+        ]
+      }
+    },
+    {
+      "name": "all_25_folds_recomputed_without_test_samples",
+      "status": "passed",
+      "details": {
+        "max_scaler_absolute_error": 4.999352043455474e-09,
+        "max_paired_t_absolute_error": 4.992854130136948e-09,
+        "max_coefficient_absolute_error": 2.220446049250313e-16,
+        "max_held_out_score_absolute_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "locked_model_gene_order",
+      "status": "passed",
+      "details": {
+        "genes": [
+          "DCT",
+          "TYR",
+          "MC1R",
+          "FAM24B",
+          "WFS1",
+          "RPL31"
+        ]
+      }
+    },
+    {
+      "name": "full_data_three_method_intersection",
+      "status": "passed",
+      "details": [
+        "DCT"
+      ]
+    },
+    {
+      "name": "final_GSE65127_scaler_mean",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "rtol": 2e-08,
+        "atol": 2e-07
+      }
+    },
+    {
+      "name": "final_GSE65127_scaler_sd",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 4.440892098500626e-16,
+        "rtol": 2e-08,
+        "atol": 2e-07
+      }
+    },
+    {
+      "name": "final_GSE75819_scaler_mean",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "rtol": 2e-08,
+        "atol": 2e-07
+      }
+    },
+    {
+      "name": "final_GSE75819_scaler_sd",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 4.440892098500626e-16,
+        "rtol": 2e-08,
+        "atol": 2e-07
+      }
+    },
+    {
+      "name": "final_locked_coefficients",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "final_locked_intercept",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "dct_mc1r_selected_in_every_fold",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "rpl31_instability_disclosed",
+      "status": "passed",
+      "details": {
+        "folds": 2,
+        "frequency": 0.08
+      }
+    },
+    {
+      "name": "development_auc_regression_anchor",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "development_auc_matches_summary",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "development_donor_pair_bootstrap_ci",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "development_bootstrap_replicates",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_sample_completeness",
+      "status": "passed",
+      "details": {
+        "n": 10,
+        "cases": 5
+      }
+    },
+    {
+      "name": "external_scores_from_locked_coefficients",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 1.7763568394002505e-15,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "official_gpl14951_six_gene_probe_map",
+      "status": "passed",
+      "details": {
+        "DCT": "ILMN_1701783",
+        "TYR": "ILMN_1788774",
+        "MC1R": "ILMN_1653319",
+        "FAM24B": "ILMN_2140799",
+        "WFS1": "ILMN_1759023",
+        "RPL31": "ILMN_1754195"
+      }
+    },
+    {
+      "name": "external_auc_regression_anchor",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 1.1102230246251565e-16,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_mann_whitney_u",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_exact_two_sided_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_mean_score_difference",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_hedges_g",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_auc_95ci_stratified_bootstrap",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_cliffs_delta_95ci_stratified_bootstrap",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_mean_difference_95ci_stratified_bootstrap",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "external_cliffs_delta",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "differential_result_dimensions",
+      "status": "passed",
+      "details": {
+        "common_genes": 13511,
+        "replicated_FDR05_same_direction": 14,
+        "replicated_large_effect": 6
+      }
+    },
+    {
+      "name": "mapped_gene_counts",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "large_effect_significant_counts",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "fourteen_replicated_gene_identities",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "twelve_down_two_up_replicated_genes",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "six_large_effect_gene_identities",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "bhlhe41_paired_log2fc",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "bhlhe41_paired_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "bhlhe41_donor_aware_beta",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "bhlhe41_donor_aware_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "graying_primary_counts",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "graying_exact_binomial_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "graying_exact_proportion_ci",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "graying_selected_sensitivity_counts",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "bhlhe41_not_forced_into_unmeasurable_cross_cohort_comparison",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "ccle_exact_cell_line_count",
+      "status": "passed",
+      "details": {
+        "n": 58
+      }
+    },
+    {
+      "name": "ccle_bhlhe41_mitf_rho",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "ccle_bhlhe41_mitf_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "ccle_mitf_group_fold_ratio",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "ccle_tie_corrected_asymptotic_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_expression_survival_dimensions",
+      "status": "passed",
+      "details": {
+        "expression": 472,
+        "patients": 469,
+        "survival": 459,
+        "events": 220
+      }
+    },
+    {
+      "name": "tcga_melanocytic_program_rho",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 5.551115123125783e-17,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_melanocytic_program_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 0.0,
+        "rtol": 1e-09,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_current_rho_regression_anchor",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 4.214516869938123e-07,
+        "rtol": 1e-05,
+        "atol": 1e-06
+      }
+    },
+    {
+      "name": "tcga_BHLHE41_hr_per_sd",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 9.216294394320812e-11,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_BHLHE41_cox_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 8.440520504748861e-11,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_AURKA_hr_per_sd",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 1.6750512088492542e-10,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_AURKA_cox_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 2.540716994431369e-10,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_melanocytic_program_hr_per_sd",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 2.0400392486408236e-10,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "tcga_melanocytic_program_cox_p",
+      "status": "passed",
+      "details": {
+        "max_absolute_error": 2.5064729979040745e-10,
+        "rtol": 1e-08,
+        "atol": 1e-09
+      }
+    },
+    {
+      "name": "seven_figure_manifest_entries",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "figure_file_Figure_1_png",
+      "status": "passed",
+      "details": {
+        "bytes": 504374
+      }
+    },
+    {
+      "name": "figure_file_Figure_1_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 2259446
+      }
+    },
+    {
+      "name": "figure_file_Figure_1_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 153104
+      }
+    },
+    {
+      "name": "figure_Figure_1_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4736,
+          3969
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Figure_2_png",
+      "status": "passed",
+      "details": {
+        "bytes": 357424
+      }
+    },
+    {
+      "name": "figure_file_Figure_2_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 1614022
+      }
+    },
+    {
+      "name": "figure_file_Figure_2_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 41128
+      }
+    },
+    {
+      "name": "figure_Figure_2_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4721,
+          3956
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Figure_3_png",
+      "status": "passed",
+      "details": {
+        "bytes": 452014
+      }
+    },
+    {
+      "name": "figure_file_Figure_3_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 2328560
+      }
+    },
+    {
+      "name": "figure_file_Figure_3_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 108957
+      }
+    },
+    {
+      "name": "figure_Figure_3_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4878,
+          3969
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Figure_4_png",
+      "status": "passed",
+      "details": {
+        "bytes": 107299
+      }
+    },
+    {
+      "name": "figure_file_Figure_4_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 772518
+      }
+    },
+    {
+      "name": "figure_file_Figure_4_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 31353
+      }
+    },
+    {
+      "name": "figure_Figure_4_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4389,
+          2709
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Figure_S1_png",
+      "status": "passed",
+      "details": {
+        "bytes": 326232
+      }
+    },
+    {
+      "name": "figure_file_Figure_S1_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 1691998
+      }
+    },
+    {
+      "name": "figure_file_Figure_S1_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 31243
+      }
+    },
+    {
+      "name": "figure_Figure_S1_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4770,
+          2707
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Figure_S2_png",
+      "status": "passed",
+      "details": {
+        "bytes": 227969
+      }
+    },
+    {
+      "name": "figure_file_Figure_S2_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 1455956
+      }
+    },
+    {
+      "name": "figure_file_Figure_S2_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 34368
+      }
+    },
+    {
+      "name": "figure_Figure_S2_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          6369,
+          2229
+        ]
+      }
+    },
+    {
+      "name": "figure_file_Graphical_Abstract_png",
+      "status": "passed",
+      "details": {
+        "bytes": 115410
+      }
+    },
+    {
+      "name": "figure_file_Graphical_Abstract_tiff",
+      "status": "passed",
+      "details": {
+        "bytes": 757594
+      }
+    },
+    {
+      "name": "figure_file_Graphical_Abstract_pdf",
+      "status": "passed",
+      "details": {
+        "bytes": 28547
+      }
+    },
+    {
+      "name": "figure_Graphical_Abstract_tiff_lzw",
+      "status": "passed",
+      "details": {
+        "compression_tag": 5,
+        "size": [
+          4015,
+          1181
+        ]
+      }
+    },
+    {
+      "name": "graphical abstract_png_exact_17cm_x_5cm",
+      "status": "passed",
+      "details": {
+        "cm": [
+          16.99263398526797,
+          4.995343324019982
+        ],
+        "pixels": [
+          2007,
+          590
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ]
+      }
+    },
+    {
+      "name": "graphical abstract_pdf_mediabox_found",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "graphical abstract_pdf_exact_17cm_x_5cm",
+      "status": "passed",
+      "details": {
+        "cm": [
+          16.999999999999027,
+          5.000000000001166
+        ],
+        "points": [
+          481.8897637795,
+          141.7322834646
+        ]
+      }
+    },
+    {
+      "name": "graphical abstract_caption_word_limit",
+      "status": "passed",
+      "details": {
+        "words": 24
+      }
+    },
+    {
+      "name": "one_command_reproduction_files_present",
+      "status": "passed",
+      "details": null
+    }
+  ],
+  "error": null,
+  "scope": "Source SHA-256; independent refit of every outer fold; final and external scores; bootstrap intervals; DE, graying, melanoma and figure integrity."
+}

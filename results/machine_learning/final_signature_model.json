@@ -1,0 +1,67 @@
+{
+  "genes": [
+    "DCT",
+    "TYR",
+    "MC1R",
+    "FAM24B",
+    "WFS1",
+    "RPL31"
+  ],
+  "intercept": 0.0359557920354873,
+  "coefficients": {
+    "DCT": -1.1450735859019079,
+    "TYR": -0.9435736239035921,
+    "MC1R": -1.0077749495585147,
+    "FAM24B": 0.7852525588506183,
+    "WFS1": -0.7362923365963788,
+    "RPL31": 1.0645172612931681
+  },
+  "best_lasso_C": 0.3,
+  "lasso_genes": [
+    "DCT",
+    "MC1R",
+    "SCARB1",
+    "UBE2T",
+    "RPL31",
+    "MRPS18C",
+    "FAM24B",
+    "CKS2",
+    "WFS1",
+    "AKR1B10"
+  ],
+  "svm_rfe_genes": [
+    "TYR",
+    "DCT",
+    "WFS1",
+    "FAM24B",
+    "TYRP1",
+    "DKK3",
+    "RPL31",
+    "KIT",
+    "STX8",
+    "PRKCSH"
+  ],
+  "random_forest_genes": [
+    "LGI3",
+    "DCT",
+    "SOX10",
+    "MLANA",
+    "TYR",
+    "TUBB2B",
+    "MC1R",
+    "LYAR",
+    "MRPL47",
+    "TYRP1",
+    "OTUD6B",
+    "COMMD8",
+    "KIF1A",
+    "TSPAN10",
+    "TPRKB"
+  ],
+  "three_way_intersection": [
+    "DCT"
+  ],
+  "classifier": "L2 logistic regression, liblinear, C=1; score is not a calibrated clinical probability",
+  "scaling": "gene-wise mean and sample SD fitted separately within each development study; external cohort uses its own label-free gene-wise z scaling",
+  "seed": 20261117
+}

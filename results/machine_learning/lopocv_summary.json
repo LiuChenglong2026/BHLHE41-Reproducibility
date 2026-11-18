@@ -1,0 +1,15 @@
+{
+  "design": "leave-one-donor-pair-out; all fitting confined to 24 training pairs per fold",
+  "n_folds": 25,
+  "n_donor_pairs": 25,
+  "n_samples": 50,
+  "auc": 0.9872,
+  "cluster_bootstrap_95ci": [
+    0.9648,
+    1.0
+  ],
+  "bootstrap_unit": "donor pair",
+  "n_bootstrap": 2000,
+  "seed": 20261117,
+  "runtime_seconds": 16.18198871612549
+}

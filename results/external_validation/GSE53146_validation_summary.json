@@ -1,0 +1,39 @@
+{
+  "dataset": "GSE53146",
+  "n_control": 5,
+  "n_vitiligo": 5,
+  "genes": [
+    "DCT",
+    "TYR",
+    "MC1R",
+    "FAM24B",
+    "WFS1",
+    "RPL31"
+  ],
+  "score_direction": "higher favors vitiligo",
+  "control_mean_score": -2.2683496475711005,
+  "vitiligo_mean_score": 2.3402612316420672,
+  "mean_difference": 4.608610879213168,
+  "mean_difference_95ci_stratified_bootstrap": [
+    2.4813718215990375,
+    6.565563005349158
+  ],
+  "mann_whitney_U": 24.0,
+  "two_sided_exact_p": 0.015873015873015872,
+  "auc": 0.9600000000000001,
+  "auc_95ci_stratified_bootstrap": [
+    0.76,
+    1.0
+  ],
+  "cliffs_delta": 0.9200000000000002,
+  "cliffs_delta_95ci_stratified_bootstrap": [
+    0.52,
+    1.0
+  ],
+  "hedges_g": 2.1893852491890047,
+  "n_bootstrap": 2000,
+  "seed": 20261117,
+  "normalization": "log2(max(intensity,0)+1), then label-free gene-wise z scaling within GSE53146",
+  "annotation": "Official GEO GPL14951 full platform table (ID/Symbol); ambiguous multi-symbol probes excluded; multiple probes collapsed by median",
+  "interpretation": "Independent biological cohort validation of score ranking; not validation of a fixed clinical threshold or calibrated probability."
+}

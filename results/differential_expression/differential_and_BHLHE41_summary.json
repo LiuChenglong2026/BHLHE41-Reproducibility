@@ -1,0 +1,25 @@
+{
+  "annotation": "GPL570 Gene symbol and GPL6884 Symbol; ambiguous multi-symbol probes excluded; multiple probes collapsed by median",
+  "genes_GSE65127": 20848,
+  "genes_GSE75819": 25440,
+  "common_genes": 13511,
+  "GSE65127_significant_absFC1_FDR05": 24,
+  "GSE75819_significant_absFC1_FDR05": 1290,
+  "replicated_FDR05_same_direction": 14,
+  "replicated_large_effect": 6,
+  "BHLHE41_group_means": {
+    "Healthy": 5.429945,
+    "Lesional": 5.17786,
+    "NonLesional": 5.278125,
+    "PeriLesional": 5.23216
+  },
+  "BHLHE41_paired_log2FC": -0.10026500000000035,
+  "BHLHE41_paired_p": 0.23379112716165346,
+  "BHLHE41_descriptive_spearman_rho": -0.39516781055529043,
+  "BHLHE41_descriptive_spearman_p": 0.011613931054847869,
+  "BHLHE41_mixed_model_beta_per_status": -0.06546760510913888,
+  "BHLHE41_mixed_model_p": 0.017651467699681535,
+  "BHLHE41_patient_only_mixed_model_beta": -0.05013249999999944,
+  "BHLHE41_patient_only_mixed_model_p": 0.10039935870358474,
+  "note": "Spearman trend is descriptive; mixed model accounts for repeated measures within donors."
+}

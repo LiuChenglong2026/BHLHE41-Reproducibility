@@ -1,0 +1,59 @@
+sample,CANCER_TYPE,CANCER_TYPE_DETAILED,DEPMAPID,LINEAGE,NAME,ONCOTREE_CODE,PRIMARY_SITE
+A101D_SKIN,Melanoma,Cutaneous Melanoma,ACH-000008,skin,A101D,SKCM,Skin
+A2058_SKIN,Melanoma,Cutaneous Melanoma,ACH-000788,skin,A2058,SKCM,Skin
+A375_SKIN,Melanoma,Cutaneous Melanoma,ACH-000219,skin,A-375,SKCM,Skin
+C32_SKIN,Melanoma,Cutaneous Melanoma,ACH-000580,skin,C32,SKCM,Skin
+CJM_SKIN,Melanoma,Cutaneous Melanoma,ACH-000458,skin,CJM,SKCM,Skin
+COLO679_SKIN,Melanoma,Cutaneous Melanoma,ACH-000805,skin,COLO-679,SKCM,Skin
+COLO741_SKIN,Melanoma,Cutaneous Melanoma,ACH-000582,skin,COLO 741,SKCM,Skin
+COLO783_SKIN,Melanoma,Cutaneous Melanoma,ACH-000812,skin,COLO-783,SKCM,Skin
+COLO792_SKIN,Melanoma,Cutaneous Melanoma,ACH-000968,skin,COLO 792,SKCM,Skin
+COLO800_SKIN,Melanoma,Cutaneous Melanoma,ACH-000401,skin,COLO-800,SKCM,Skin
+COLO829_SKIN,Melanoma,Cutaneous Melanoma,ACH-000644,skin,COLO 829,SKCM,Skin
+G361_SKIN,Melanoma,Cutaneous Melanoma,ACH-000572,skin,G-361,SKCM,Skin
+HMCB_SKIN,Melanoma,Cutaneous Melanoma,ACH-000931,skin,HMCB,SKCM,Skin
+HS294T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000014,skin,Hs 294T,SKCM,Skin
+HS600T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000240,fibroblast,Hs 600.T,SKCM,Skin
+HS688AT_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000306,fibroblast,Hs 688(A).T,SKCM,Skin
+HS695T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000799,skin,Hs 695T,SKCM,Skin
+HS834T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000275,fibroblast,Hs 834.T,SKCM,Skin
+HS839T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000180,fibroblast,Hs 839.T,SKCM,Skin
+HS852T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000274,skin,Hs 852.T,SKCM,Skin
+HS895T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000043,fibroblast,Hs 895.T,SKCM,Skin
+HS934T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000194,fibroblast,Hs 934.T,SKCM,Skin
+HS936T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000801,skin,Hs 936.T,SKCM,Skin
+HS939T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000814,skin,Hs 939.T,SKCM,Skin
+HS940T_FIBROBLAST,Melanoma,Cutaneous Melanoma,ACH-000135,fibroblast,Hs 940.T,SKCM,Skin
+HS944T_SKIN,Melanoma,Cutaneous Melanoma,ACH-000632,skin,Hs 944.T,SKCM,Skin
+HT144_SKIN,Melanoma,Cutaneous Melanoma,ACH-000322,skin,HT-144,SKCM,Skin
+IGR1_SKIN,Melanoma,Cutaneous Melanoma,ACH-000882,skin,IGR-1,SKCM,Skin
+IGR37_SKIN,Melanoma,Cutaneous Melanoma,ACH-000650,skin,IGR-37,SKCM,Skin
+IGR39_SKIN,Melanoma,Cutaneous Melanoma,ACH-000550,skin,IGR-39,SKCM,Skin
+IPC298_SKIN,Melanoma,Cutaneous Melanoma,ACH-000915,skin,IPC-298,SKCM,Skin
+K029AX_SKIN,Melanoma,Cutaneous Melanoma,ACH-000404,skin,K029AX,SKCM,Skin
+LOXIMVI_SKIN,Melanoma,Cutaneous Melanoma,ACH-000750,skin,LOX IMVI,SKCM,Skin
+MALME3M_SKIN,Melanoma,Cutaneous Melanoma,ACH-000477,skin,Malme-3M,SKCM,Skin
+MDAMB435S_SKIN,Melanoma,Cutaneous Melanoma,ACH-000884,skin,MDA-MB-435S,SKCM,Skin
+MEL202_EYE,Melanoma,Uveal Melanoma,ACH-001554,eye,,UM,
+MELHO_SKIN,Melanoma,Cutaneous Melanoma,ACH-000450,skin,MEL-HO,SKCM,Skin
+MELJUSO_SKIN,Melanoma,Cutaneous Melanoma,ACH-000881,skin,MEL-JUSO,SKCM,Skin
+MEWO_SKIN,Melanoma,Cutaneous Melanoma,ACH-000987,skin,MeWo,SKCM,Skin
+RPMI7951_SKIN,Melanoma,Cutaneous Melanoma,ACH-000348,skin,RPMI-7951,SKCM,Skin
+RVH421_SKIN,Melanoma,Cutaneous Melanoma,ACH-000614,skin,RVH-421,SKCM,Skin
+SEKI_SKIN,Melanoma,Cutaneous Melanoma,ACH-001645,skin,,SKCM,
+SH4_SKIN,Melanoma,Cutaneous Melanoma,ACH-000441,skin,SH-4,SKCM,Skin
+SKMEL1_SKIN,Melanoma,Cutaneous Melanoma,ACH-000465,skin,SK-MEL-1,SKCM,Skin
+SKMEL24_SKIN,Melanoma,Cutaneous Melanoma,ACH-000822,skin,SK-MEL-24,SKCM,Skin
+SKMEL28_SKIN,Melanoma,Cutaneous Melanoma,ACH-000615,skin,SK-MEL-28,SKCM,Skin
+SKMEL30_SKIN,Melanoma,Cutaneous Melanoma,ACH-000810,skin,SK-MEL-30,SKCM,Skin
+SKMEL31_SKIN,Melanoma,Cutaneous Melanoma,ACH-000640,skin,SK-MEL-31,SKCM,Skin
+SKMEL3_SKIN,Melanoma,Cutaneous Melanoma,ACH-000423,skin,SK-MEL-3,SKCM,Skin
+SKMEL5_SKIN,Melanoma,Cutaneous Melanoma,ACH-000730,skin,SK-MEL-5,SKCM,Skin
+UACC257_SKIN,Melanoma,Cutaneous Melanoma,ACH-000579,skin,UACC-257,SKCM,Skin
+UACC62_SKIN,Melanoma,Cutaneous Melanoma,ACH-000425,skin,UACC-62,SKCM,Skin
+WM115_SKIN,Melanoma,Cutaneous Melanoma,ACH-000304,skin,WM-115,SKCM,Skin
+WM1799_SKIN,Melanoma,Cutaneous Melanoma,ACH-000661,skin,WM1799,SKCM,Skin
+WM2664_SKIN,Melanoma,Cutaneous Melanoma,ACH-001239,skin,WM-266-4,SKCM,Skin
+WM793_SKIN,Melanoma,Cutaneous Melanoma,ACH-000827,skin,WM-793,SKCM,Skin
+WM88_SKIN,Melanoma,Cutaneous Melanoma,ACH-000899,skin,WM-88,SKCM,Skin
+WM983B_SKIN,Melanoma,Cutaneous Melanoma,ACH-000765,skin,WM-983B,SKCM,Skin

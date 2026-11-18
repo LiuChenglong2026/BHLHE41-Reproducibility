@@ -1,0 +1,17 @@
+{
+  "source": "Bian et al., Exp Ther Med 2019;18:1155-1163; PMID 31316609; PMCID PMC6601371; Tables III-IV",
+  "unique_published_genes": 40,
+  "measurable_in_both_vitiligo_studies": 31,
+  "concordant": 20,
+  "proportion": 0.6451612903225806,
+  "two_sided_exact_binomial_p": 0.14961278438568115,
+  "proportion_95ci_exact": [
+    0.45369560195063835,
+    0.8077325655740394
+  ],
+  "primary_effect": "sample-size-weighted mean of study-specific paired log2 fold changes (10 and 15 pairs)",
+  "sensitivity_both_vitiligo_studies_same_direction_n": 14,
+  "sensitivity_concordant": 12,
+  "sensitivity_two_sided_exact_binomial_p": 0.012939453125,
+  "interpretation": "Primary cross-disease direction concordance is exploratory and not statistically significant; the same-direction subset is descriptive and subject to selection."
+}
